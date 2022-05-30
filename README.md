@@ -6,7 +6,7 @@
   - Class & Object
   - Animation
   - Mouse Event
-  - Demo Videos
+  - Demo Videos: *[whack_a_mole.py](https://drive.google.com/file/d/1tT9X9fPLbyG_hXg2AlfItaetWiBRSg9P/view?usp=sharing)*
 - Week 2
   - Making your own class
   - Setter & Getter
@@ -36,7 +36,3 @@
   - Sorting Algorithm
 
 # Assignments Demo Videos
-- Assignment 1
-  - *[MidpointKarel.py](https://drive.google.com/file/d/1AquVWlMlYcxsXuYkyfu0zEJ781swCmlq/view?usp=sharing)*
-- Assignment 3
-  - *[hangman.py](https://drive.google.com/file/d/1B9CoNC6WD45-2QYyayRHSM1gE0YqhUNP/view?usp=sharing)*
