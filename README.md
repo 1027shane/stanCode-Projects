@@ -17,7 +17,7 @@
   - Terminal 
 - Week 4
   - Advanced Data Structure
-  - Python bbuilt-in(s)
+  - Python built-in(s)
   - lambda
   - tkinter
   - Web Crawler
