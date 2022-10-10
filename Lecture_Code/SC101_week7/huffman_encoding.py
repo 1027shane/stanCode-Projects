@@ -1,5 +1,5 @@
 """
-File: huffman_encoding_ANS.py
+File: huffman_encoding.py
 Name: Shane Liu
 -------------------------
 This program demonstrates the idea of zipping/unzipping, 
@@ -34,8 +34,8 @@ def main():
 
 def build_dict():
     """
-    :return: dict, a Python dictionary containing ch as key,
-                    the number of ch occurrence as value
+    :return: Dict, a Python dictionary containing ch as key,
+             the number of ch occurrence as value
     """
     d = {}
     for ch in TARGET:
@@ -124,12 +124,13 @@ def decoding(tree, zipped_words):
 
 def add_to_ans_lst(root, zipped_words, ans_lst, cur):
     """
-    This function trace all the binaries in zipped_words down to leaves
-    and add the character to ans_lst
     :param root: Tree, the binary tree that contains all the ch encoded
     :param zipped_words: str, binaries that were zipped from TARGET
     :param ans_lst: List[str], containing characters that are in leaf node
     :param cur: Tree, pointer of where the current node is
+    --------------------------------
+    This function trace all the binaries in zipped_words down to leaves
+    and add the character to ans_lst.
     """
     if cur.left is None and cur.right is None:
         # Base Case!
@@ -148,6 +149,7 @@ def bfs(tree):
     """
     :param tree: Tree, class defined in ds.py in which constructor creates objects with 
                  one value and two pointers.
+    --------------------------------        
     This function traverses the tree and prints all elements out
     """
     queue = [tree]
