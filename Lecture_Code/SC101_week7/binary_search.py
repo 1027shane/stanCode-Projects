@@ -8,7 +8,7 @@ def binary_search(lst, target):
 	"""
 	:param lst: list[int], a Python list storing integers.
 	:param target: int, the value to be searched.
-	:returns : bool, if target is in the lst or not.
+	:returns: bool, if target is in the lst or not.
 	"""
 	return helper(lst, target, len(lst)//2)
 
